@@ -50,7 +50,10 @@ int main()
             k++;
         }
     res = s / k;
-    cout << fixed << setprecision(2) << res << endl;*/
+    if (k==0)
+        cout << "NO" << endl;
+    else
+        cout << fixed << setprecision(2) << res << endl;*/
 
     /*int n;
     cout << "enter size of array n=";
